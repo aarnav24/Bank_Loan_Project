@@ -131,12 +131,18 @@ This solution enables:
 
 ---
 
-## 📁 Repository Structure
-├── financial_loan/ # Dataset
-├── Loan_SQLQuery/ # SQL queries and transformations
-├── Bank Loan Analysis/ # Power BI (.pbix) file
-├── Screenshots/ # Dashboard images
-└── README.md # Project documentation
+## Repository Structure
+```text
+financial_loan/
+├── Dataset/
+├── Loan_SQLQuery/
+│   └── SQL queries and transformations
+├── Bank Loan Analysis/
+│   ├── Power BI (.pbix) file
+│   ├── Screenshots/
+│   │   └── Dashboard images
+├── README.md
+│   └── Project documentation
 
 ---
 

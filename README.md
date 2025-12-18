@@ -1,6 +1,6 @@
-# 📊 Loan Portfolio Risk & Performance Analytics Dashboard
+# Loan Portfolio Risk & Performance Analytics Dashboard
 
-## 🔍 Project Overview
+## Project Overview
 This project delivers an **end-to-end loan portfolio analytics solution** using **MS SQL Server and Power BI** to analyze **38,000+ loan records** and monitor **$435M+ in funded loans**.  
 The goal is to help stakeholders **assess portfolio health, identify credit risk concentration, and support data-driven lending decisions** through interactive dashboards and analytical insights.
 
@@ -8,7 +8,7 @@ Unlike basic reporting dashboards, this project focuses on **risk segmentation, 
 
 ---
 
-## 🧠 Business Problem
+## Business Problem
 Financial institutions must balance **loan growth** with **credit risk control**.  
 This project addresses key decision-making questions such as:
 
@@ -21,7 +21,7 @@ The objective is to move beyond descriptive reporting and provide **decision-sup
 
 ---
 
-## 📂 Dataset Description
+## Dataset Description
 - **Records:** 38,000+ loan applications  
 - **Key attributes:**
   - Loan grade & sub-grade  
@@ -36,14 +36,14 @@ The objective is to move beyond descriptive reporting and provide **decision-sup
 
 ---
 
-## ⚙️ Analytical Approach
+## Analytical Approach
 
-### 1️⃣ Data Preparation (MS SQL Server)
+### 1️ Data Preparation (MS SQL Server)
 - Cleaned and transformed raw loan data
 - Used **CTEs, window functions, date logic, and aggregations**
 - Built analysis-ready tables for BI consumption
 
-### 2️⃣ Data Modeling & Measures (Power BI)
+### 2️ Data Modeling & Measures (Power BI)
 - Optimized data model and relationships
 - Created **DAX measures** for:
   - MTD & MoM KPIs
@@ -51,7 +51,7 @@ The objective is to move beyond descriptive reporting and provide **decision-sup
   - Average interest rate & DTI
   - Good vs bad loan segmentation
 
-### 3️⃣ Portfolio Segmentation
+### 3️ Portfolio Segmentation
 Analysis performed across:
 - Loan grade
 - Loan purpose
@@ -60,16 +60,16 @@ Analysis performed across:
 - Home ownership
 - Geography (state-level)
 
-### 4️⃣ Risk vs Recovery Analysis
+### 4️ Risk vs Recovery Analysis
 - Compared funded vs received amounts
 - Evaluated contribution of bad loans to portfolio losses
 - Identified risk concentration drivers
 
 ---
 
-## 📊 Dashboard Structure
+## Dashboard Structure
 
-### 🔹 Summary Dashboard
+### Summary Dashboard
 - High-level KPIs:
   - Total loan applications (MTD & MoM)
   - Total funded amount
@@ -78,13 +78,13 @@ Analysis performed across:
   - Average DTI
 - **Good vs Bad Loan distribution** for portfolio health assessment
 
-### 🔹 Overview Dashboard
+### Overview Dashboard
 - Monthly loan funding and recovery trends
 - State-wise performance analysis
 - Purpose-wise contribution
 - Home ownership impact on repayment
 
-### 🔹 Details Dashboard
+### Details Dashboard
 - Record-level drill-down
 - Interactive filters by:
   - State
@@ -94,7 +94,7 @@ Analysis performed across:
 
 ---
 
-## 🔍 Key Insights
+## Key Insights
 - **~86% of loans are good loans**, while the remaining **~14% contribute disproportionately to funded losses**, indicating risk concentration.
 - Lower loan grades (C–E) show **higher default risk**, and higher interest rates do **not fully compensate** for losses.
 - **Debt consolidation loans dominate portfolio volume** and significantly amplify bad-loan exposure.
@@ -104,7 +104,7 @@ Analysis performed across:
 
 ---
 
-## 📌 Business Recommendations
+## Business Recommendations
 - Apply **risk-adjusted approval criteria** for high-DTI and low-grade borrowers.
 - Re-price or cap loan amounts for high-risk segments instead of blanket rejection.
 - Reduce concentration in **debt consolidation loans** through portfolio diversification.
@@ -113,7 +113,7 @@ Analysis performed across:
 
 ---
 
-## 💼 Business Impact
+## Business Impact
 This solution enables:
 - Faster and more accurate **credit risk assessment**
 - Identification of high-risk borrower segments
@@ -123,7 +123,7 @@ This solution enables:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Power BI** – Data modeling, DAX, KPIs, interactive dashboards  
 - **MS SQL Server** – Data transformation, CTEs, window functions  
 - **DAX** – Time intelligence and advanced measures  

@@ -143,6 +143,7 @@ financial_loan/
 │   │   └── Dashboard images
 ├── README.md
 │   └── Project documentation
+```
 
 ---
 

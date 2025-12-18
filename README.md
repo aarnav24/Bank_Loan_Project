@@ -144,7 +144,7 @@ This solution enables:
 
 ---
 
-## 📈 Output Preview
+## Output Preview
 The dashboards provide:
 - Loan application trends by time, geography, and borrower profile  
 - Funded vs received amount comparisons  
